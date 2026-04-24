@@ -6,7 +6,7 @@ def extract_data(html, fields):
 
         data = []
 
-        # 🔥 Simple demo logic (we'll improve later)
+        # Simple demo logic (we'll improve later)
         items = soup.find_all("p")
 
         for item in items[:5]:  # limit output
